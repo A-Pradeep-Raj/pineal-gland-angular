@@ -1,0 +1,11 @@
+runtime: python27
+api_version: 1
+threadsafe: true
+
+handlers:
+  - url: /
+    static_files: dist/pineal-gland-angular/index.html
+    upload: dist/pineal-gland-angular/index.html
+
+  - url: /
+    static_dir: dist/pineal-gland-angular
