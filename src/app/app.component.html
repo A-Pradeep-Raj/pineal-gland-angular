@@ -11,10 +11,30 @@ div {text-align: center;}
 
 <h1>PINEAL GLAND</h1>
 <p>3D MRI Brain Scan Coronal,Sagittal and Axial showing the Pineal Gland</p>
-<div class="imgdiv">
+<!--<div class="imgdiv">
   <img src="../assets/images/PinealGland_MRI.jpg" class="img1" >
   <img src="../assets/images/PinealGland_CalciteCrystals.jpg" class="img2" >
-</div>
+</div>-->
+<div class="container">
+  <div class="row">
+    <div class="col-md-12">
+      <div class="card bg-dark my-5">
+        <div class="card-body">
+          <h2 class="card-title text-center text-white py-3">{{ title }}</h2>
+          <ul class="text-center list-inline py-3">
+            <li class="list-inline-item">
+              <a routerLink="/users" class="btn btn-info">List Users</a>
+                </li>
+            <li class="list-inline-item">
+              <a routerLink="/adduser" class="btn btn-info">Add User</a>
+                </li>
+          </ul>
+        </div>
+      </div>
+      <router-outlet></router-outlet>
+    </div>
+  </div>
+</div>us
 
 </body>
 </html>
