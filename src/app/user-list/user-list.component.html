@@ -1,21 +1,18 @@
-<p>user-list works!</p>
-<div class="card my-5">
   <div class="card-body">
-    <table class="table table-bordered table-striped">
+    <table class="table table-bordered table-striped" title="Chemical Reactions in Pineal Gland">
       <thead class="thead-dark">
         <tr>
           <th scope="col">#</th>
-          <th scope="col">Name</th>
-          <th scope="col">Email</th>
+          <th scope="col">Chemical Name</th>
+
         </tr>
       </thead>
       <tbody>
         <tr *ngFor="let user of users">
           <td>{{ user.id }}</td>
           <td>{{ user.name }}</td>
-          <td><a href="mailto:{{ user.email }}">{{ user.email }}</a></td>
         </tr>
       </tbody>
     </table>
   </div>
-</div>
+

@@ -1,12 +1,16 @@
 .imgdiv{
-  height: 400px;
+  height: 1200px;
 }
 .img1{
   height: 400px;
-  width: 1200px;
+  width: 900px;
 }
 .img2{
   height: 400px;
-  width: 1200px;
+  width: 600px;
+}
+.img3{
+  height: 400px;
+  width: 600px;
 }
 
